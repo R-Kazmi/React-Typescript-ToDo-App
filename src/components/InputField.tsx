@@ -20,7 +20,7 @@ const InputField: React.FC<Props> = ({ todo, setTodo, handleAddTodo }: Props) =>
     >
       <input
         ref={inputRef}
-        className="w-[100%] rounded-[50px] px-[30px] py-[20px] text-[20px] border-none transition duration-[0.2s] shadow-inner shadow-[0_0_5px_black] bg-[#D3E4CD] focus:outline-none focus:shadow-[0_0_10px_1000px_rgba(0,0,0,0.5)]"
+        className="w-[100%] rounded-[50px] px-[30px] py-[20px] text-[20px] border-none transition duration-[0.2s] shadow-[0_0_5px_black] bg-[#D3E4CD] focus:outline-none focus:shadow-[0_0_10px_1000px_rgba(0,0,0,0.5)]"
         type="input"
         placeholder="Enter The Task"
         value={todo}

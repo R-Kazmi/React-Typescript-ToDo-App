@@ -12,7 +12,7 @@ const TodoList: React.FC<Props> = ({ todos, setTodos }: Props) => {
     <div className="flex justify-evenly w-[95%] md:w-[90%] flex-wrap">
       {todos.map((todo) => (
         <SingleTodo
-          todo={todo.todo}
+          todo={todo}
           key={todo.id}
           todos={todos}
           setTodos={setTodos}
